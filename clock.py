@@ -10,7 +10,6 @@ import requests
 import time
 import re
 import urllib
-import argparse
 import sys
 
 if len(sys.argv) == 1:
