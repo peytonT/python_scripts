@@ -16,3 +16,10 @@ temperature = json_string['current_observation']['temperature_string']
 feelslike = json_string['current_observation']['feelslike_string']
 print('Location: {}'.format(location), sys.argv[1])
 print('Temperature: {} \nFeels like:{} '.format(temperature, feelslike))
+
+# python weather.py <zip_code>
+
+# sample output:
+# Location: Dallas, TX 75248
+# Temperature: 76.4 F (24.7 C)
+# Feels like:76.4 F (26 C)
