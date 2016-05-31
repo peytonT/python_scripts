@@ -1,3 +1,7 @@
+# get location from ip address
+# using database from maxmind
+# command: python location.py <ip_adress>
+
 import requests
 import sys
 import webbrowser
