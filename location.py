@@ -1,5 +1,6 @@
 # get location from ip address
 # using database from maxmind
+# return details about the location & option to open Google Maps
 # command: python location.py <ip_adress>
 
 import requests
@@ -24,3 +25,18 @@ elif open_link == 'n':
     pass
 else:
     print('Invid input!')
+
+# sample output:
+# zip_code: 02142
+# metro_code: 506
+# time_zone: America/New_York
+# longitude: -71.0843
+# country_name: United States
+# ip: 23.14.146.151
+# region_code: MA
+# latitude: 42.3626
+# city: Cambridge
+# region_name: Massachusetts
+# country_code: US
+
+# Open google maps? (y/n):
