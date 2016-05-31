@@ -24,7 +24,7 @@ if open_link == 'y':
 elif open_link == 'n':
     pass
 else:
-    print('Invid input!')
+    print('Invalid input!')
 
 # sample output:
 # zip_code: 02142
