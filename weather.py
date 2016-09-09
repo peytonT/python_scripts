@@ -5,7 +5,8 @@ import zipcode
 
 # regiter your api key at:
 # https://www.wunderground.com/weather/api/
-key = '16-digit wunderground api key'
+#key = '16-digit wunderground api key'
+key = '12AA3456ERXS74GF32'
 
 zc = zipcode.isequal(sys.argv[1])
 url = 'http://api.wunderground.com/api/{}/geolookup/conditions/q/{}/{}.json'.format(key, zc.state, sys.argv[1])
